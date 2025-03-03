@@ -1,66 +1,154 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emploi GI</title>
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header, .section {
+            margin-bottom: 20px;
+        }
+        .header {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header h2 {
+            margin: 5px 0 0;
+            font-weight: normal;
+        }
+        .left, .right {
+            float: left;
+            width: 48%;
+            margin: 1%;
+        }
+        .left img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .section h3 {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin: 0 -20px 10px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
 </head>
 <body>
-    <table width="100%"> 
-        <tr>
-            <td><img src="Logo.png" alt="Logo ensa" align="left" width="40%"></td>
-            <td style="color:rgb(21, 122, 185)" width="60%"><h2>Universite Sultan Moulay Sliman<br>Ecole Nationale Des sciences Appliquees de Khouribga<br>Annee Universitaire 2024-2025</h2></td>
-            <td><img src="OIP.jpeg" alt="Logo " align="right" width="60%"></td>
-        </tr>
-        <tr>
-            <td style="color:rgb(93, 224, 76)"><h3>Filiere<br>Annee     Genie Informatique</h3></td>
-            <td style="color:rgb(249, 46, 46)"><h3>EMPLOI DU TEMPS GI1 (Semestre 2)</h3></td>        </tr>
-    </table>
-    <table border="4" style="background-color:rgb(231, 250, 237);color:rgb(241, 146, 12)">
-        <tr>
-            <th style="background-color:rgb(255, 255, 255)">        </th>
-            <th colspan="2" style="background-color:rgb(226, 224, 226)" >8h15 a 10h00</th>
-            <th colspan="2" style="background-color:rgb(226, 224, 226)">10h15 a 12h00</th>
-            <th colspan="2" style="background-color:rgb(226, 224, 226)">14h00 a 15h45</th>
-            <th colspan="2" style="background-color:rgb(226, 224, 226)">16h00 a 17h45</th>
-        </tr>
-        <tr>
-            <th style="background-color:rgb(226, 224, 226)">Lundi</th>
-            <td>ADMINISTRATION DE<br> L'INFRASTRUCTURE INFORMATIQUE</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Tissir</td>
-            <td>ADMINISTRATION DE<br> L'INFRASTRUCTURE INFORMATIQUE</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Tissir</td>
-            <td>ART DIGITAL</td><td style="color:rgb(85, 80, 73)"><br>F24<br>     </td>
-            <td>ART DIGITAL</td><td style="color:rgb(85, 80, 73)"><br>F24<br>     </td>
-        </tr>
-        <tr>
-            <th style="background-color:rgb(226, 224, 226)">Mardi</th>
-            <td>THERIE DES GRAPHES ET<br> OPTIMISATION COMBINATOIRE</td><td style="color:rgb(85, 80, 73)"><br>F24<br>     </td>
-            <td>THERIE DES GRAPHES ET<br> OPTIMISATION COMBINATOIRE</td><td style="color:rgb(85, 80, 73)"><br>F24<br>     </td>
-            <td>FRANCAIS</td><td style="color:rgb(85, 80, 73)"><br>F24<br>     </td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>
-            
-        </tr>
-        <tr>
-            <th style="background-color:rgb(226, 224, 226)">MERCREDI</th>
-            <td>JAVA</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Baghdadi S.</td>
-            <td>JAVA</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Baghdadi S.</td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>
-        </tr>
-        <tr>
-            <th style="background-color:rgb(226, 224, 226)">Jeudi</th>
-            <td>SYSTEMES D'EXPLOITATION & UNIX</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Omari</td>
-            <td>SYSTEMES D'EXPLOITATION & UNIX</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Omari</td>
-            <td>ANGLAIS</td><td style="color:rgb(85, 80, 73)"><br>F24<br>Pr.Boukhlet</td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>
-        </tr>
-        <tr>
-            <th style="background-color:rgb(226, 224, 226)">Vendredi</th>
-            <td>PROGRAMMATION WEB</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Omari</td>
-            <td>PROGRAMMATION WEB</td><td style="color:rgb(85, 80, 73)"><br>C2<br>Pr.Omari</td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>
-            <td style="background-color:rgb(255, 255, 255);color:rgb(232, 27, 27)">TRAVAUX PRATIQUES</td><td style="background-color:rgb(255, 255, 255)">      </td>  
-        </tr>
-    </table>
-    
+    <div class="container">
+        <div class="header">
+            <h1>Richard Sanchez</h1>
+            <h2>Product Designer</h2>
+        </div>
+        <div class="left">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="section">
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.</p>
+            </div>
+            <div class="section">
+                <h3>Contact</h3>
+                <p>+123-456-7890</p>
+                <p>hello@reallygreatsite.com</p>
+                <p>123 Anywhere St., Any City</p>
+            </div>
+            <div class="section">
+                <h3>Language</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Germany (basic)</li>
+                    <li>Spain (basic)</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Expertise</h3>
+                <ul>
+                    <li>Management Skills</li>
+                    <li>Creativity</li>
+                    <li>Digital Marketing</li>
+                    <li>Negotiation</li>
+                    <li>Critical Thinking</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="section">
+                <h3>Experience</h3>
+                <ul>
+                    <li>
+                        <strong>Studio Showde</strong><br>
+                        Canberra - Australia<br>
+                        2020 - 2022<br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+                    </li>
+                    <li>
+                        <strong>Elsetown Cor.</strong><br>
+                        Kota Baru - Singapore<br>
+                        2016 - 2020<br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+                    </li>
+                    <li>
+                        <strong>Studio Showde</strong><br>
+                        Sydney - Australia<br>
+                        2010 - 2015<br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <strong>Borcelle University</strong><br>
+                        Bachelor of Business Management<br>
+                        2014 - 2023
+                    </li>
+                    <li>
+                        <strong>Borcelle University</strong><br>
+                        Master of Business Management<br>
+                        2014 - 2018
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Skills Summary</h3>
+                <ul>
+                    <li>Design Process: 78%</li>
+                    <li>Project Management: 81%</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
 </body>
 </html>

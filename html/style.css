@@ -1,3 +1,17 @@
-.contact{
-    background-color: bisque;
-}
+
+    .container {
+        width: 80%; /* Ajuste la largeur selon tes besoins */
+        margin: auto; /* Centre horizontalement */
+        /* text-align: center; Centre le texte à l'intérieur */
+        padding: 10px; /* Ajoute un peu d'espace autour du contenu */
+    }
+    .left, .right {
+        float: left;
+        width: 48%;
+        margin: 1%;
+    }
+    .img {
+        /* display: block; */
+        margin: 10px auto;
+        border-radius: 50%;
+    }
